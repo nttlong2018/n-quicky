@@ -1,0 +1,15 @@
+<% extend 'base' %>
+<div q-template url="XXXX" ng-if="!$root.page"></div>
+<div q-template url="<%- @getAppUrl() %>/{{$root.page}}" ng-if="$root.page"></div>
+<script>
+    function startUp(scope){
+        console.log(scope);
+        scope.$root.$history.change(function(data){
+            if(data.page){
+                scope.$root.page=data.page;
+                scope.$applyAsync();
+            }
+            console.log(data);
+        })
+    }
+</script>

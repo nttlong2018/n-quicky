@@ -1,0 +1,16 @@
+<root>
+    <!-- for main connection-->
+    <main>mongodb://sys:123456@172.16.7.63/lv01_lms</main>
+    <!--language store config-->
+    <language value="mongodb://sys:123456@172.16.7.63:27017/lv01_lms">
+        <collection>
+            sys_admin_languages
+        </collection>
+    </language>
+    <!-- api caching -->
+    <api value="mongodb://sys:123456@172.16.7.63:27017/lv01_lms">
+        <collection>
+            sys_api_callback_cache
+        </collection>
+    </api>
+</root>
