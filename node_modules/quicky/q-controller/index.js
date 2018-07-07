@@ -59,7 +59,12 @@ module.exports=function(filename,handler){
         watcher.add(filename);
         watcher_cache[filename]=filename
     }
-    
+    if(!controllerCache[filename]){
+        controllerCache[filename]={};
+    }
+    if(!controllerCache[filename].handler){
+        controllerCache[filename].handler=handler;
+    }
     
     return function(req,res,next,inherit){
         function extHandler(_handler){
@@ -121,13 +126,21 @@ module.exports=function(filename,handler){
             controllerCache[filename].ignoreHandler=false;
             return;
         }
-        var _handler=controllerCache[filename].handler();
+        var _handler=extHandler({});
+        var retHandler=controllerCache[filename].handler(_handler);
+        if(!retHandler){
+            require("../q-exception").next(new Error("Controller must retunr an object"),filename);
+        }
+        Object.keys(retHandler).forEach(function(key){
+            _handler[key]=retHandler[key];
+        });
+
         if(inherit){
             return _handler;
         }
         if(!_handler.base){
-            _handler.model={};
-            _handler=extHandler(_handler);
+            // _handler.model={};
+            // _handler=extHandler(_handler);
         }
         else {
             var fx=_handler.base(req,res,next,true);
@@ -163,7 +176,7 @@ module.exports=function(filename,handler){
                             require("../q-exception").next(new Error("post with ajax fails at '"+ req.get("AJAX-POST")+"'"),__filename)
                         }
                         else {
-                            _handler.postData=require("../q-json").toJSON(req.body);
+                            _handler.postData=require("../q-json").fromJSON(req.body);
                             _handler.ajax[req.get("AJAX-POST")](_handler,function(ex){
                                 if(ex){
                                     require("../q-exception").next(new Error("post with ajax fails at '"+ req.get("AJAX-POST")+"'"),__filename)
@@ -212,7 +225,7 @@ module.exports=function(filename,handler){
                         require("../q-exception").next(new Error("post with ajax fails at '"+ req.get("AJAX-POST")+"'"),__filename)
                     }
                     else {
-                        _handler.postData=require("../q-json").toJSON(req.body);
+                        _handler.postData=require("../q-json").fromJSON(req.body);
                         _handler.ajax[req.get("AJAX-POST")](_handler,function(ex){
                             if(ex){
                                 require("../q-exception").next(new Error("post with ajax fails at '"+ req.get("AJAX-POST")+"'"),__filename)

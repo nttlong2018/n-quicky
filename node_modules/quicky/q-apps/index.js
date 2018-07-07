@@ -1,5 +1,6 @@
 var logger=require("../q-logger")(__filename)
-
+var expressRouteReLoad=require("express-route-reload");
+var reloader=new  expressRouteReLoad.ReloadRouter()
 var sesssionCache=require("./session-cache")
 var express = require('express');
 var cookieParser = require('cookie-parser');
@@ -20,7 +21,7 @@ var fs=require("fs");
 var cache_watcher={}
 var app=undefined;
  
-
+var reloadRouter=new expressRouteReLoad.ReloadRouter();
 /**
  * Get root directory where source is hosting
  */
@@ -44,16 +45,13 @@ function getListOfApps(){
 function loadApp(appItem){
     try {
         
-        
-        router = express.Router()
-        _path=getRootDir()+path.sep+appItem.dir+path.sep+"index.js";
         var appModule=require(getRootDir()+path.sep+path.sep+appItem.dir);
         appItem.fullHostDir=getRootDir()+path.sep+appItem.dir;
         if(!appModule.router){
             throw(new Error("It look like you forgot create router in '"+_path+"'\r\n How to export router?\r\n"+
         "Inside '"+_path+"' place module.exports={router:router} \r\n"+
         "in which router is your router")
-    );
+        );
         }
         global["___n-apps___caching"].push({
             name:appItem.name,
@@ -89,6 +87,7 @@ function loadApp(appItem){
             router.use(prefix,appModule.router);
         
         }
+        
         logger.info("load app:"+JSON.stringify(appItem));
     } catch (error) {
         logger.error(appItem,error);
@@ -97,20 +96,29 @@ function loadApp(appItem){
 }
 function watchDir(dir){
     fs.watchFile(dir+path.sep+"index.js",function(e,f){
+        var reloadRouter=new expressRouteReLoad.ReloadRouter();
+        app.use(reloadRouter.handler());
         loadApp(cache_watcher[dir]);
-        app.use(router);
+        reloadRouter.reload([router]);
+        // app.use(router);
         console.log(cache_watcher[dir])
         console.log("reload app at '"+dir+"'")
     });
     fs.watch(dir+path.sep+"views",function(e,f){
+        var reloadRouter=new expressRouteReLoad.ReloadRouter();
+        app.use(reloadRouter.handler());
         loadApp(cache_watcher[dir]);
-        app.use(router);
+        reloadRouter.reload([router]);
+        // app.use(router);
         console.log(cache_watcher[dir])
         console.log("reload app at '"+dir+"'")
     });
     fs.watchFile(dir+path.sep+"router.js",function(e,f){
+        var reloadRouter=new expressRouteReLoad.ReloadRouter();
+        app.use(reloadRouter.handler());
         loadApp(cache_watcher[dir]);
-        app.use(router);
+        reloadRouter.reload([router]);
+        // app.use(router);
         console.log(cache_watcher[dir]);
         console.log("reload app at '"+dir+"'");
         // app.listen(3000,()=>{
@@ -125,6 +133,7 @@ function watchDir(dir){
 function load(apps){
     
     app = express();
+    app.use(reloadRouter.handler());
     router =express.Router();
     router.use('/site-static',express.static(__dirname+'/client'))
     app.use(cookieParser());
@@ -135,17 +144,7 @@ function load(apps){
         cookie: { secure: false }
     }));
     
-    apps.forEach(function(appItem){
-        var fullPath=getRootDir()+path.sep+appItem.dir;
-        if(!cache_watcher[fullPath]){
-            cache_watcher[fullPath]=appItem;
-            watchDir(getRootDir()+path.sep+appItem.dir);
-        }
-        
-        loadApp(appItem);
-        
-        
-    });
+   
     app.use(function(req,res,next){
         var postData={}
         if (req.method == 'POST') {
@@ -172,9 +171,20 @@ function load(apps){
         }
 
     });
-  
+    apps.forEach(function(appItem){
+        var fullPath=getRootDir()+path.sep+appItem.dir;
+        if(!cache_watcher[fullPath]){
+            cache_watcher[fullPath]=appItem;
+            watchDir(getRootDir()+path.sep+appItem.dir);
+        }
+        
+        loadApp(appItem);
+        app.use(router);
+        // reloadRouter.reload([router]);
+        
+    });
    
-    app.use(router);
+    // app.use(router);
     
     global.___current_app___=app;
     return app;

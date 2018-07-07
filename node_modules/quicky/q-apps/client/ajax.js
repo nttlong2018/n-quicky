@@ -43,6 +43,7 @@ function ajax(){
                                     method:"POST",
                                     headers:{"AJAX-POST":me.id},
                                     data:JSON.stringify(me._data),
+                                    contentType: "application/json; charset=utf-8",
                                     dataType: "json",
                                     success:function(res){
                                         if(ax._onAferPost){

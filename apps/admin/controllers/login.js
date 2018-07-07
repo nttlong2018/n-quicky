@@ -6,6 +6,7 @@ module.exports=require("quicky/q-controller")(__filename,function(){
     }
     return {
         load:function(sender,callback){
+            
             var user=require("quicky/q-system/libs.findUser")(sender.req.tenancyCode,"sys");
             if(!user){
                 var ret=require("quicky/q-system/libs.createUser")(sender.req.tenancyCode,"sys","sys","sys@sys.com.vn","system",true,true,"application");

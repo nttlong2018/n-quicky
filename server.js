@@ -6,19 +6,20 @@ var q=require("quicky")
 // conn=conn.result;
 var app=q.apps;
 var api=q.api;
-
+var cnn="mongodb://nttlong:nttlong123456@ds129321.mlab.com:29321/hrm"
 var language=q.language;
 var qMongo=q.mongo;
 // var dbPath="mongodb://sys:123456@172.16.7.63/lv01_lms";
-qMongo.connect("mongodb://root:123456@localhost/hrm");
+// qMongo.connect("mongodb://root:123456@localhost/hrm");
+qMongo.connect(cnn);
 // qMongo.connect(conn.main)
 // qMongo.connect("mongodb://sys:123456@172.16.7.63/lv01_lms");
- language.setConfig("mongodb://root:123456@localhost/hrm","sys_languages");
+ language.setConfig(cnn,"sys_languages");
 // language.setConfig(conn.language.value,conn.language.collection);
 // app.setTenancyConfig("mongodb://root:123456@localhost/hrm","sys_tenancy");
 // api.connect(conn.api.value,conn.api.collection);
 
-api.connect("mongodb://root:123456@localhost/hrm","sys_api_callback_cache");
+api.connect(cnn,"sys_api_callback_cache");
 // api.connect("mongodb://sys:123456@172.16.7.63/lv01_lms","sys_api_callback_cache")
 // language.setConfig("mongodb://sys:123456@172.16.7.63:27017/lv01_lms","sys_admin_languages");
 //api.connect("mongodb://sys:123456@172.16.7.63:27017/lv01_lms","sys_api_callback_cache");

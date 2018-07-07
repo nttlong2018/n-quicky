@@ -12,6 +12,7 @@ var tenancy=require("./tenancy");
 var caching={};
 var cacheMode=true;
 var compressMode=true;
+var fs=require("fs");
 /**
  * Set cache mode for template render
  * @param {Default value is true} value 
@@ -26,14 +27,28 @@ function setCacheMode(value){
 function setCompressMode(value){
     compressMode=value
 }
-
-
+var handler_cache={};
+function execHandlerByPath(app,pathToHandler,req,res,next){
+    
+    var xPath=path.join( global._rootDir,app.dir,pathToHandler);
+    if(!handler_cache[xPath]){
+        handler_cache[xPath]=require(xPath);
+        fs.watchFile(xPath,function(e,r){
+            delete require.cache[xPath];
+            handler_cache[xPath]=require(xPath);
+            console.log("reload file '"+xPath+"'");
+        });
+    }
+    handler_cache[xPath](req,res,next);
+    console.log(xPath);
+}
 function urls(router){
     function ret(router){
         var me=this;
         me.router=router;
         me._templateDir="";
         me.app;
+        me._handlers_cache={};
         
         me.setTemplateDir=function(tmpPath){
             me._templateDir=tmpPath;
@@ -58,7 +73,16 @@ function urls(router){
                     if(req.application._mdl.authenticate){
                         try {
                             req.application._mdl.authenticate(req,res,function(){
-                                owner._handler(req,res,next)  
+                                if(typeof owner._handler==="string"){
+                                    execHandlerByPath(me.app,owner._handler,req,res,next);
+                                    
+
+
+                                }
+                                else {
+                                    owner._handler(req,res,next);  
+                                }
+                                
                             });    
                         } catch (error) {
                             logger.debug(error);
@@ -68,7 +92,13 @@ function urls(router){
                         
                     }
                     else {
-                        owner._handler(req,res,next)
+                        if(typeof owner._handler==="string"){
+                            execHandlerByPath(me.app,owner._handler,req,res,next);
+                        }
+                        else {
+                            owner._handler(req,res,next)
+                        }
+                        
                     }
                     
                 }    
