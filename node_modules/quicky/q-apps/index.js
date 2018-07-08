@@ -7,6 +7,7 @@ var cookieParser = require('cookie-parser');
 var session = require('express-session');
 var cookieSession = require('cookie-session')
 const bodyParser = require("body-parser");
+const fileUpload = require('express-fileupload');
 var router = undefined;
 // require('express-namespace');
 var path=require("path");
@@ -59,6 +60,9 @@ function loadApp(appItem){
             module:appModule
         });
         appItem._mdl=appModule;
+        if(appItem._mdl.getFileStorage){
+            appItem._mdl.router.use('/resources',express.static(appItem._mdl.getFileStorage()))
+        }
         var prefix='/';
         if(tenancy.isUseMultitenancy()){
             prefix='/:tenancy/'
@@ -137,6 +141,7 @@ function load(apps){
     router =express.Router();
     router.use('/site-static',express.static(__dirname+'/client'))
     app.use(cookieParser());
+    app.use(fileUpload());
     app.use(session({
         secret: secret_key,
         resave: true,
@@ -259,6 +264,9 @@ function createAppRoutes(workingDir){
         me.router=express.Router();
         me.urls=extension.urls(me.router);
         me.router.use('/static',express.static(workingDir+'/static'));
+        if(app.fileStorage){
+            router.use('/resources',express.static(path.join(getRootDir(),app.fileStorage)));
+        }
         me.urls.setDir(workingDir);
         me.urls.url("api.html","/api",require("../q-api").handler);
         me.url=function(templateFile,urlParttern,controllerPath){

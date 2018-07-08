@@ -15,6 +15,14 @@ module.exports=require("quicky/q-controller")(
                     page:"system/email"
                 }
             ]
+        },{
+            caption:"Categories",
+            items:[
+                {
+                    caption:"Production",
+                    page:"categories/production"
+                }
+            ]
         }]
         return {
             load:(sender,done)=>{

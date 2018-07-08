@@ -33,6 +33,8 @@ module.exports = apps.createAppRoutes(__dirname)
   "/system/user",
   "/system/email",
   "/system/email_testing",
+  "/categories/production",
+  "/categories/product",
   "/signout"
 ]
 )

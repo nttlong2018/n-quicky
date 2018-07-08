@@ -32,7 +32,11 @@ function authenticate(req,res,next){
     
     
 }
+function getFileStorage(){
+    return require("path").join(require("quicky/q-apps").getRootDir(),"resources");
+}
 module.exports={
     router:router,
-    authenticate:authenticate
+    authenticate:authenticate,
+    getFileStorage:getFileStorage
 }

@@ -19,6 +19,7 @@ module.exports=require("quicky/q-controller")(
                             result:false,
                             error_message:error.message
                         });
+                        d();
                     }
                     
                 }

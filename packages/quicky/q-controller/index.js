@@ -157,6 +157,9 @@ module.exports=function(filename,handler){
                 }
                 if(req.method==="POST"){
                     if(!req.get("AJAX-POST")){ 
+                        if (req.files){
+                            
+                        }
                         _handler.postData=qs.parse(req.body);
                         if(_handler.post){
                             
