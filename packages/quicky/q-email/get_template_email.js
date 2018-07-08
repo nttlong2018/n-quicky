@@ -5,8 +5,10 @@ var sync=require("../q-sync")
 var default_template_dir
 var collOfEmailItems
 var collTemplateName
+var settingsCollection;
 var db
 var cache={}
+var _tempSettings;
 const MongoClient = require('mongodb').MongoClient;
 function checkDirectorySync(directory) {  
     try {
@@ -15,13 +17,14 @@ function checkDirectorySync(directory) {
       fs.mkdirSync(directory);
     }
   }
-function setConfig(url,collection,collectionTemplateName,_default_template_dir){
+function setConfig(url,collection,settingsCollectionName,collectionTemplateName,_default_template_dir){
     var dbName=url.split('/')[url.split('/').length-1];
         var cnn=sync.sync(MongoClient.connect,[url]);
         db= cnn.db(dbName);
         collOfEmailItems=db.collection(collection);
         collTemplateName=collectionTemplateName
         default_template_dir=_default_template_dir
+        settingsCollection=db.collection(settingsCollectionName);
 
 
 }
@@ -133,8 +136,158 @@ function send(prefix,mailTo,subject,body,ccTo,data,cb){
         has_error:false
     },cb)
 }
+function getSettings(callback){
+    var ED=require("./ed");
+    if(!settingsCollection){
+        require("../q-exception").next(
+            new Error("It looks like you forgot call 'setConffig' of quicky/q-email"),
+            __filename
+        )
+    }
+    return require("../q-sync").exec(function(cb){
+        settingsCollection.findOne(function(ex,res){
+            if(ex) cb(ex);
+            else {
+                if(res){
+                    delete res._id;
+                    if(res.password){
+                        res.password=ED.decrypt(res.password);
+                    }
+                    _tempSettings=res;
+                    cb(null,res);
+                }
+                else {
+                    if(!res){
+                        var item={
+                            server:"",
+                            username:"",
+                            password:"",
+                            port:0,
+                            useSSL:true,
+                            useDefaultCredentials:true,
+                            email:""
+                        }
+                        settingsCollection.insertOne(item,function(ex,res){
+                            if(ex) cb(ex);
+                            else {
+                                delete item._id;
+                                _tempSettings=item;
+                                cb(null,item);
+                            }
+
+                        });
+                    }
+                    else {
+                        delete res._id;
+                        _tempSettings=res;
+                        cb(null,res);
+                    }
+                }
+            }
+        });
+    },callback,__filename)
+}
+function setSettings(settings,callback){
+    if(!settingsCollection){
+        require("../q-exception").next(
+            new Error("It looks like you forgot call 'setConffig' of quicky/q-email"),
+            __filename
+        )
+    }
+    var ED=require("./ed");
+    require("../q-validator").validateRequire(
+        {
+            server:settings.server,
+            username:settings.username,
+            password:settings.password,
+            port:settings.port,
+            useSSL:settings.useSSL,
+            useDefaultCredentials:settings.useDefaultCredentials,
+            email:settings.email
+        }
+    );
+    settings.password=ED.encrypt(settings.password)
+    return require("../q-sync").exec(function(cb){
+        settingsCollection.findOne(function(ex,res){
+           if(ex) {cb(ex); return}
+           if(!res){
+               settingsCollection.insertOne(settings,function(ex,res){
+                
+                    cb(ex,res);
+               });
+           }
+           else {
+            settingsCollection.updateOne({}, {"$set": settings},function(ex,res){
+                cb(ex,res);
+            });
+           }
+        });
+    },callback, __filename);
+}
+function sandBoxSetSettings(settings){
+    require("../q-validator").validateRequire(
+        {
+            server:settings.server,
+            username:settings.username,
+            password:settings.password,
+            port:settings.port,
+            useSSL:settings.useSSL,
+            useDefaultCredentials:settings.useDefaultCredentials,
+            email:settings.email
+        }
+    );
+    _tempSettings=settings;
+
+}
+function sandBoxSendEmail(subject,body,mailTo,callback){
+    require("../q-validator").validateRequire(
+        {
+            subject:subject,
+            mailTo:mailTo,
+            body:body
+        }
+    );
+    return require("../q-sync").exec(function(cb){
+        var mailer = require("nodemailer");
+        var smtpConfig = {
+            host: _tempSettings.server,
+            auth: {
+                user: _tempSettings.username,
+                pass: _tempSettings.password
+            },
+            // direct:true,
+            port: _tempSettings.port,
+            secure: _tempSettings.useSSL,
+            use_authentication:!_tempSettings.useDefaultCredentials,
+            tls: { rejectUnauthorized: false },
+        };
+        var smtpTransport = mailer.createTransport(smtpConfig);
+        smtpTransport.verify(function(err){
+            if (!err) {
+                var mail = {
+                    from: _tempSettings.email,
+                    to: mailTo,
+                    subject: subject,
+                    text: body,
+                    html: body
+                };
+                smtpTransport.sendMail(mail, function (err, res) {
+                    cb(err,res)
+                });
+            }
+            else {
+                cb(err);
+            }
+        });
+
+    },callback,__filename)
+}
 module.exports={
     get_template_email:get_template_email,
     setConfig:setConfig,
-    send:send
+    send:send,
+    getSettings:getSettings,
+    setSettings:setSettings,
+    sandBoxSetSettings:sandBoxSetSettings,
+    sandBoxSendEmail:sandBoxSendEmail
 }

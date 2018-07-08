@@ -6,9 +6,17 @@ var q=require("quicky")
 // conn=conn.result;
 var app=q.apps;
 var api=q.api;
-var cnn="mongodb://nttlong:nttlong123456@ds129321.mlab.com:29321/hrm"
+var cnn="mongodb://nttlong:nttlong123456@ds129321.mlab.com:29321/hrm";
+var cnn2="mongodb://root:123456@localhost/hrm";
 var language=q.language;
 var qMongo=q.mongo;
+q.email.setConfig(
+    cnn,
+    "sys_send_emails",
+    "sys_email_settings",
+    "email_templates"
+
+)
 // var dbPath="mongodb://sys:123456@172.16.7.63/lv01_lms";
 // qMongo.connect("mongodb://root:123456@localhost/hrm");
 qMongo.connect(cnn);

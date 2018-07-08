@@ -26,5 +26,14 @@ var apps=require("quicky/q-apps");
 // router.use('/static',express.static(__dirname+'/static'));
 
 module.exports = apps.createAppRoutes(__dirname)
-.url("/")
-.url("/login").router;
+.url([
+  "/",
+  "/login",
+  "/system/users",
+  "/system/user",
+  "/system/email",
+  "/system/email_testing",
+  "/signout"
+]
+)
+.router;

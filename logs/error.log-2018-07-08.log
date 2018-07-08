@@ -152,3 +152,209 @@
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
 
+[2018-07-08T09:24:13.485] [ERROR] error - E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js { name: 'admin', dir: 'apps/admin', hostDir: 'admin' }
+[2018-07-08T09:24:36.793] [ERROR] error - E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js { name: 'admin', dir: 'apps/admin', hostDir: 'admin' }
+[2018-07-08T11:46:22.860] [ERROR] error - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js Error: Error: Failed to load template e:\code\nodejs\n-app-02\apps\admin\views\system\email_testing.html
+    at Object.sync (E:\code\nodejs\n-app-02\packages\quicky\q-sync\index.js:29:10)
+    at IncomingMessage.req.render (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js:29:25)
+    at Object.module.exports [as e:\code\nodejs\n-app-02\apps\admin\controllers\system\email_testing] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:29:25)
+    at execHandlerByPath (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:29:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:29:34
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:29:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:29:45)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:29:10)
+    at Route.dispatch (E:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:29:3)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:29:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:29:3)
+    at runCallback (timers.js:29:10)
+    at tryOnImmediate (timers.js:29:3)
+    at processImmediate [as _immediateCallback] (timers.js:29:3)
+
+[2018-07-08T11:46:35.430] [ERROR] error - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js Error: Error: Failed to load template e:\code\nodejs\n-app-02\apps\admin\views\system\email_testing.html
+    at Object.sync (E:\code\nodejs\n-app-02\packages\quicky\q-sync\index.js:29:10)
+    at IncomingMessage.req.render (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js:29:25)
+    at Object.module.exports [as e:\code\nodejs\n-app-02\apps\admin\controllers\system\email_testing] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:29:25)
+    at execHandlerByPath (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:29:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:29:34
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:29:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:29:45)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:29:10)
+    at Route.dispatch (E:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:29:3)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:29:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:29:3)
+    at runCallback (timers.js:29:10)
+    at tryOnImmediate (timers.js:29:3)
+    at processImmediate [as _immediateCallback] (timers.js:29:3)
+
+[2018-07-08T11:46:37.680] [ERROR] error - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js Error: Error: Failed to load template e:\code\nodejs\n-app-02\apps\admin\views\system\email_testing.html
+    at Object.sync (E:\code\nodejs\n-app-02\packages\quicky\q-sync\index.js:29:10)
+    at IncomingMessage.req.render (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js:29:25)
+    at Object.module.exports [as e:\code\nodejs\n-app-02\apps\admin\controllers\system\email_testing] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:29:25)
+    at execHandlerByPath (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:29:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:29:34
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:29:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:29:45)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:29:10)
+    at Route.dispatch (E:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:29:3)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:29:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:29:3)
+    at runCallback (timers.js:29:10)
+    at tryOnImmediate (timers.js:29:3)
+    at processImmediate [as _immediateCallback] (timers.js:29:3)
+
+[2018-07-08T11:47:50.668] [ERROR] error - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js Error: [stdin]:3:105: error: invalid regular expression flags label in e:\code\nodejs\n-app-02\apps\admin\views\system\email_testing.html
+'') + ((@getAppRes("Test send email")></legend>    <div class="form-group">        <label for="">label</label>        <input type="text" class="form-control" id="" placeholder="Input field">    </div>    <button type="submit" class="btn btn-primary">Submit</button></form><script>    (function(scope,settings){    })</script>
+                                                                                                      ^^^^^
+    at Object.sync (E:\code\nodejs\n-app-02\packages\quicky\q-sync\index.js:29:10)
+    at IncomingMessage.req.render (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js:29:25)
+    at Object.module.exports [as e:\code\nodejs\n-app-02\apps\admin\controllers\system\email_testing] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:29:25)
+    at execHandlerByPath (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:29:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:29:34
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:29:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:29:45)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:29:10)
+    at Route.dispatch (E:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:29:3)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:29:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:29:3)
+    at runCallback (timers.js:29:10)
+    at tryOnImmediate (timers.js:29:3)
+    at processImmediate [as _immediateCallback] (timers.js:29:3)
+
+[2018-07-08T11:47:53.528] [ERROR] error - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js Error: [stdin]:3:105: error: invalid regular expression flags label in e:\code\nodejs\n-app-02\apps\admin\views\system\email_testing.html
+'') + ((@getAppRes("Test send email")></legend>    <div class="form-group">        <label for="">label</label>        <input type="text" class="form-control" id="" placeholder="Input field">    </div>    <button type="submit" class="btn btn-primary">Submit</button></form><script>    (function(scope,settings){    })</script>
+                                                                                                      ^^^^^
+    at Object.sync (E:\code\nodejs\n-app-02\packages\quicky\q-sync\index.js:29:10)
+    at IncomingMessage.req.render (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js:29:25)
+    at Object.module.exports [as e:\code\nodejs\n-app-02\apps\admin\controllers\system\email_testing] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:29:25)
+    at execHandlerByPath (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:29:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:29:34
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:29:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:29:45)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:29:10)
+    at Route.dispatch (E:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:29:3)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:29:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:29:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:29:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:29:3)
+    at runCallback (timers.js:29:10)
+    at tryOnImmediate (timers.js:29:3)
+    at processImmediate [as _immediateCallback] (timers.js:29:3)
+

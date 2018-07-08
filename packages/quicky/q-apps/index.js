@@ -263,18 +263,26 @@ function createAppRoutes(workingDir){
         me.urls.url("api.html","/api",require("../q-api").handler);
         me.url=function(templateFile,urlParttern,controllerPath){
             if(urlParttern===undefined){
-                if(templateFile!=="/"){
-                    urlParttern=templateFile;
-                    controllerPath="./controllers"+templateFile;
-                    templateFile=templateFile.substring(1,templateFile.length)+ ".html";
+                if(!(templateFile instanceof Array)){
+                    if(templateFile!=="/"){
+                        urlParttern=templateFile;
+                        controllerPath="./controllers"+templateFile;
+                        templateFile=templateFile.substring(1,templateFile.length)+ ".html";
+                    }
+                    else {
+                        urlParttern="/";
+                        controllerPath="./controllers/index";
+                        templateFile="index.html";
+                    }
+                    me.urls.url(templateFile,urlParttern,controllerPath);
                 }
                 else {
-                    urlParttern="/";
-                    controllerPath="./controllers/index";
-                    templateFile="index.html";
+                    templateFile.forEach(function(x){
+                        me.url(x);
+                    });
                 }
             }
-            me.urls.url(templateFile,urlParttern,controllerPath);
+            
             return me;
         }
 

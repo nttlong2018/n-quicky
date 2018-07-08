@@ -29,6 +29,19 @@ function setConfig(
     smtpConfig.use_authentication=!useDefaultCredentials;
     fromEmail=email
 }
+function getConfig(){
+    if(!fromEmail){
+        return;
+    }
+    return {
+        username:smtpConfig.auth.user,
+        password:smtpConfig.auth.pass,
+        port:smtpConfig.port,
+        useSSL:smtpConfig.secure,
+        useDefaultCredentials:!smtpConfig.use_authentication,
+        email:fromEmail
+    }
+}
 function sendEmail(mailTo,subject,body,cb){
     var smtpTransport = mailer.createTransport(smtpConfig);
     smtpTransport.verify(function(err){
@@ -51,5 +64,6 @@ function sendEmail(mailTo,subject,body,cb){
 }
 module.exports={
     setConfig:setConfig,
-    sendEmail:sendEmail
+    sendEmail:sendEmail,
+    getConfig:getConfig
 }

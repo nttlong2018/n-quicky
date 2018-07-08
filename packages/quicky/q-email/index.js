@@ -45,9 +45,16 @@ function setUseBackgroudService(val){
 }
 module.exports={
     setConfig:tmp.setConfig,
-    setEmailConfig:sender.setConfig,
-    sendEmail:sender.setConfig,
-    send:send,
-    sendSync:sendSync,
-    setUseBackgroudService:setUseBackgroudService
+    setSettings:tmp.setSettings,
+    getSettings:tmp.getSettings,
+    sandBoxSendEmail:tmp.sandBoxSendEmail,
+    sandBoxSetSettings:tmp.sandBoxSetSettings
+    // getEmailConfig:tmp.getConfig,
+    // getSettings:sender.getSettings,
+    // getConfig:tmp.get_template_email,
+    // setEmailConfig:sender.setConfig,
+    // sendEmailConfig:sender.setConfig,
+    // send:send,
+    // sendSync:sendSync,
+    // setUseBackgroudService:setUseBackgroudService
 }
