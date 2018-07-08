@@ -1,0 +1,189 @@
+[2018-07-07T12:37:03.670] [ERROR] error - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js Error: Error: Failed to load template e:\code\nodejs\n-app-02\apps\candidate\views\index.html
+    at Object.sync (E:\code\nodejs\n-app-02\packages\quicky\q-sync\index.js:34:20)
+    at IncomingMessage.req.render (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js:213:26)
+    at hanlderCls.module.exports [as _handler] (e:\code\nodejs\n-app-02\apps\candidate\views\index.js:2:9)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:71:31)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:489:7)
+    at runCallback (timers.js:676:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+
+[2018-07-07T14:49:22.127] [ERROR] error - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js Error: Error: Failed to load template e:\code\nodejs\n-app-02\apps\admin\views\system\users.html
+    at Object.sync (E:\code\nodejs\n-app-02\packages\quicky\q-sync\index.js:34:10)
+    at IncomingMessage.req.render (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js:34:25)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T14:49:55.935] [ERROR] error - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js Error: Error: Failed to load template e:\code\nodejs\n-app-02\apps\admin\views\system\users.html
+    at Object.sync (E:\code\nodejs\n-app-02\packages\quicky\q-sync\index.js:34:10)
+    at IncomingMessage.req.render (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js:34:25)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T15:31:37.332] [ERROR] error - E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js { name: 'candidate-admin',
+  dir: 'apps/candidate-admin',
+  hostDir: 'candidate-admin' }
+[2018-07-07T15:31:37.340] [ERROR] error - E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js { name: 'admin', dir: 'apps/admin', hostDir: 'admin' }
+[2018-07-07T15:38:16.491] [ERROR] error - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js Error: TypeError: Cannot read property 'error_message' of undefined in e:\code\nodejs\n-app-02\apps\admin\views\login.html on line 24
+    at Object.sync (E:\code\nodejs\n-app-02\packages\quicky\q-sync\index.js:19:10)
+    at IncomingMessage.req.render (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js:19:25)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:19:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:19:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:13:10)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:19:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:19:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:19:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:19:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:19:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:19:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:19:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at IncomingMessage.<anonymous> (E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:19:10)
+    at emitNone (events.js:19:10)
+    at IncomingMessage.emit (events.js:19:3)
+    at endReadableNT (_stream_readable.js:19:10)
+    at _combinedTickCallback (internal/process/next_tick.js:19:10)
+    at process._tickCallback (internal/process/next_tick.js:19:3)
+
+[2018-07-07T15:39:42.466] [ERROR] error - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js Error: Error: Failed to load template e:\code\nodejs\n-app-02\apps\admin\views\system\email.html
+    at Object.sync (E:\code\nodejs\n-app-02\packages\quicky\q-sync\index.js:34:10)
+    at IncomingMessage.req.render (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js:34:25)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T17:28:47.289] [ERROR] error - E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js { name: 'admin', dir: 'apps/admin', hostDir: 'admin' }
+[2018-07-07T17:30:09.300] [ERROR] error - E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js { name: 'admin', dir: 'apps/admin', hostDir: 'admin' }

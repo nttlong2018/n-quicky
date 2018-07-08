@@ -1,0 +1,2034 @@
+[2018-07-07T12:37:20.927] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js { Error: Param 'username' is missing
+    at Object.raise (:1:1)
+    at Object.validateRequire (2:15)
+    at Object.module.exports [as login] (34:10)
+    at Object.post (e:\code\nodejs\n-app-02\apps\candidate-admin\controllers\login.js:34:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10
+    at Object.load (e:\code\nodejs\n-app-02\apps\candidate-admin\controllers\login.js:34:10)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\candidate-admin\auth.js:30:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+ name: 'ParameterIsMissing', paramName: 'username' }
+[2018-07-07T12:37:25.717] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js { Error: Param 'username' is missing
+    at Object.raise (:1:1)
+    at Object.validateRequire (2:15)
+    at Object.module.exports [as login] (34:10)
+    at Object.post (e:\code\nodejs\n-app-02\apps\candidate-admin\controllers\login.js:34:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10
+    at Object.load (e:\code\nodejs\n-app-02\apps\candidate-admin\controllers\login.js:34:10)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\candidate-admin\auth.js:30:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+ name: 'ParameterIsMissing', paramName: 'username' }
+[2018-07-07T12:38:39.579] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js { Error: Param 'username' is missing
+    at Object.raise (:2:13)
+    at Object.validateRequire (5:39)
+    at Object.module.exports [as login] (24:20)
+    at Object.post (e:\code\nodejs\n-app-02\apps\candidate-admin\controllers\login.js:24:31)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:150:38
+    at Object.load (e:\code\nodejs\n-app-02\apps\candidate-admin\controllers\login.js:19:17)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:141:22)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:61:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\candidate-admin\auth.js:10:9)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:60:50)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:489:7)
+    at runCallback (timers.js:676:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+ name: 'ParameterIsMissing', paramName: 'username' }
+[2018-07-07T14:39:48.055] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js { Error: Param 'username' is missing
+    at Object.raise (:1:1)
+    at Object.validateRequire (2:15)
+    at Object.module.exports [as login] (34:10)
+    at Object.post (e:\code\nodejs\n-app-02\apps\admin\controllers\login.js:34:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10
+    at Object.load (e:\code\nodejs\n-app-02\apps\admin\controllers\login.js:34:10)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:28:10)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+ name: 'ParameterIsMissing', paramName: 'username' }
+[2018-07-07T14:46:04.700] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js { Error: Param 'username' is missing
+    at Object.raise (:1:1)
+    at Object.validateRequire (2:15)
+    at Object.module.exports [as login] (34:10)
+    at Object.post (e:\code\nodejs\n-app-02\apps\candidate-admin\controllers\login.js:34:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10
+    at Object.load (e:\code\nodejs\n-app-02\apps\candidate-admin\controllers\login.js:34:10)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\candidate-admin\auth.js:30:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+ name: 'ParameterIsMissing', paramName: 'username' }
+[2018-07-07T14:46:32.398] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js { Error: Param 'username' is missing
+    at Object.raise (:1:1)
+    at Object.validateRequire (2:15)
+    at Object.module.exports [as login] (34:10)
+    at Object.post (e:\code\nodejs\n-app-02\apps\admin\controllers\login.js:34:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10
+    at Object.load (e:\code\nodejs\n-app-02\apps\admin\controllers\login.js:34:10)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:28:10)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+ name: 'ParameterIsMissing', paramName: 'username' }
+[2018-07-07T14:46:56.732] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js { Error: Param 'username' is missing
+    at Object.raise (:1:1)
+    at Object.validateRequire (2:15)
+    at Object.module.exports [as login] (34:10)
+    at Object.post (e:\code\nodejs\n-app-02\apps\admin\controllers\login.js:34:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10
+    at Object.load (e:\code\nodejs\n-app-02\apps\admin\controllers\login.js:34:10)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:28:10)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+ name: 'ParameterIsMissing', paramName: 'username' }
+[2018-07-07T14:47:15.337] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js { Error: Param 'username' is missing
+    at Object.raise (:1:1)
+    at Object.validateRequire (2:15)
+    at Object.module.exports [as login] (34:10)
+    at Object.post (e:\code\nodejs\n-app-02\apps\admin\controllers\login.js:34:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10
+    at Object.load (e:\code\nodejs\n-app-02\apps\admin\controllers\login.js:34:10)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:28:10)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+ name: 'ParameterIsMissing', paramName: 'username' }
+[2018-07-07T14:48:11.517] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js { Error: Param 'username' is missing
+    at Object.raise (:1:1)
+    at Object.validateRequire (2:15)
+    at Object.module.exports [as login] (34:10)
+    at Object.post (e:\code\nodejs\n-app-02\apps\admin\controllers\login.js:34:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10
+    at Object.load (e:\code\nodejs\n-app-02\apps\admin\controllers\login.js:34:10)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:28:10)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+ name: 'ParameterIsMissing', paramName: 'username' }
+[2018-07-07T14:49:22.152] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js Error: Error: Failed to load template e:\code\nodejs\n-app-02\apps\admin\views\system\users.html
+    at Object.sync (E:\code\nodejs\n-app-02\packages\quicky\q-sync\index.js:34:10)
+    at IncomingMessage.req.render (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js:34:25)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T14:49:55.938] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js Error: Error: Failed to load template e:\code\nodejs\n-app-02\apps\admin\views\system\users.html
+    at Object.sync (E:\code\nodejs\n-app-02\packages\quicky\q-sync\index.js:34:10)
+    at IncomingMessage.req.render (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js:34:25)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T15:04:20.057] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js Error: post with ajax fails at 'getListOfUser'
+    at hanlderCls.module.exports [as _handler] (11:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:11:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at IncomingMessage.<anonymous> (E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:11:10)
+    at emitNone (events.js:11:10)
+    at IncomingMessage.emit (events.js:11:3)
+    at endReadableNT (_stream_readable.js:11:10)
+    at _combinedTickCallback (internal/process/next_tick.js:11:10)
+    at process._tickCallback (internal/process/next_tick.js:11:3)
+
+[2018-07-07T15:06:43.773] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js Error: post with ajax fails at 'getListOfUser'
+    at hanlderCls.module.exports [as _handler] (11:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:11:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at IncomingMessage.<anonymous> (E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:11:10)
+    at emitNone (events.js:11:10)
+    at IncomingMessage.emit (events.js:11:3)
+    at endReadableNT (_stream_readable.js:11:10)
+    at _combinedTickCallback (internal/process/next_tick.js:11:10)
+    at process._tickCallback (internal/process/next_tick.js:11:3)
+
+[2018-07-07T15:08:09.402] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js Error: post with ajax fails at 'getListOfUser'
+    at hanlderCls.module.exports [as _handler] (11:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:11:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at IncomingMessage.<anonymous> (E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:11:10)
+    at emitNone (events.js:11:10)
+    at IncomingMessage.emit (events.js:11:3)
+    at endReadableNT (_stream_readable.js:11:10)
+    at _combinedTickCallback (internal/process/next_tick.js:11:10)
+    at process._tickCallback (internal/process/next_tick.js:11:3)
+
+[2018-07-07T15:15:32.840] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: Cannot set property 'base' of undefined
+    at E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:24
+    at Array.forEach (native)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:34)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T15:20:38.331] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: Cannot read property 'tenancyCode' of undefined
+    at Object.load (e:\code\nodejs\n-app-02\apps\admin\controllers\login.js:9:73)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:143:22)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:61:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:8:13)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:60:50)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:170:13
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:489:7)
+    at runCallback (timers.js:676:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+
+[2018-07-07T15:23:08.639] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: Cannot set property 'base' of undefined
+    at E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:24
+    at Array.forEach (native)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:34)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T15:23:55.846] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: Cannot set property 'base' of undefined
+    at E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:24
+    at Array.forEach (native)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:34)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T15:24:23.129] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: Cannot set property 'base' of undefined
+    at E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:24
+    at Array.forEach (native)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:34)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T15:27:24.311] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: controllerCache[filename].handler is not a function
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:125:35)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:61:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:8:13)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:60:50)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:170:13
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:489:7)
+    at runCallback (timers.js:676:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+
+[2018-07-07T15:28:43.180] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: controllerCache[filename].handler is not a function
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:125:35)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:61:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:8:13)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:60:50)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:170:13
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:489:7)
+    at runCallback (timers.js:676:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+
+[2018-07-07T15:29:06.388] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: controllerCache[filename].handler is not a function
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:125:35)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:61:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:8:13)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:60:50)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:170:13
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:489:7)
+    at runCallback (timers.js:676:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+
+[2018-07-07T15:33:14.395] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js ReferenceError: _handler is not defined
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:134:13)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:61:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:8:13)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:60:50)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:170:13
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:489:7)
+    at runCallback (timers.js:676:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+
+[2018-07-07T15:38:16.498] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js Error: TypeError: Cannot read property 'error_message' of undefined in e:\code\nodejs\n-app-02\apps\admin\views\login.html on line 24
+    at Object.sync (E:\code\nodejs\n-app-02\packages\quicky\q-sync\index.js:19:10)
+    at IncomingMessage.req.render (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js:19:25)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:19:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:19:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:13:10)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:19:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:19:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:19:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:19:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:19:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:19:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:19:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:19:10)
+    at IncomingMessage.<anonymous> (E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:19:10)
+    at emitNone (events.js:19:10)
+    at IncomingMessage.emit (events.js:19:3)
+    at endReadableNT (_stream_readable.js:19:10)
+    at _combinedTickCallback (internal/process/next_tick.js:19:10)
+    at process._tickCallback (internal/process/next_tick.js:19:3)
+
+[2018-07-07T15:39:37.108] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: Cannot convert undefined or null to object
+    at Object.module.exports [as base] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T15:39:41.052] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: Cannot convert undefined or null to object
+    at Object.module.exports [as base] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T15:39:42.469] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js Error: Error: Failed to load template e:\code\nodejs\n-app-02\apps\admin\views\system\email.html
+    at Object.sync (E:\code\nodejs\n-app-02\packages\quicky\q-sync\index.js:34:10)
+    at IncomingMessage.req.render (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension-request.js:34:25)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T15:40:31.319] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: Cannot convert undefined or null to object
+    at Object.module.exports [as base] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T15:40:39.819] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: Cannot convert undefined or null to object
+    at Object.module.exports [as base] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T15:40:43.561] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: Cannot convert undefined or null to object
+    at Object.module.exports [as base] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T15:41:27.239] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: Cannot convert undefined or null to object
+    at Object.module.exports [as base] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T15:45:29.949] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js e.exports [as base] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T15:46:27.592] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js e.exports [as base] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:10)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:25)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T16:42:46.594] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js Please set pageIndex
+[2018-07-07T16:46:02.618] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js Please set pageIndex
+[2018-07-07T16:46:53.255] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js Please set pageIndex
+[2018-07-07T16:47:37.334] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js SyntaxError: Invalid or unexpected token
+    at Object.fromJSON (E:\code\nodejs\n-app-02\packages\quicky\q-json\index.js:11:10)
+    at Object.module.exports.s.validatePostData (e:\code\nodejs\n-app-02\apps\admin\controllers\base-grid.js:4:1)
+    at Object.getListOfUsers (e:\code\nodejs\n-app-02\apps\admin\controllers\system\users.js:8:3)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:11:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:11:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at IncomingMessage.<anonymous> (E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:11:10)
+    at emitNone (events.js:11:10)
+    at IncomingMessage.emit (events.js:11:3)
+    at endReadableNT (_stream_readable.js:11:10)
+    at _combinedTickCallback (internal/process/next_tick.js:11:10)
+    at process._tickCallback (internal/process/next_tick.js:11:3)
+
+[2018-07-07T16:48:47.397] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js SyntaxError: Invalid or unexpected token
+    at Object.fromJSON (E:\code\nodejs\n-app-02\packages\quicky\q-json\index.js:11:10)
+    at Object.module.exports.s.validatePostData (e:\code\nodejs\n-app-02\apps\admin\controllers\base-grid.js:4:1)
+    at Object.getListOfUsers (e:\code\nodejs\n-app-02\apps\admin\controllers\system\users.js:8:3)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:11:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:11:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at IncomingMessage.<anonymous> (E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:11:10)
+    at emitNone (events.js:11:10)
+    at IncomingMessage.emit (events.js:11:3)
+    at endReadableNT (_stream_readable.js:11:10)
+    at _combinedTickCallback (internal/process/next_tick.js:11:10)
+    at process._tickCallback (internal/process/next_tick.js:11:3)
+
+[2018-07-07T16:50:48.515] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js ReferenceError: Invalid left-hand side in assignment
+    at Object.fromJSON (E:\code\nodejs\n-app-02\packages\quicky\q-json\index.js:11:10)
+    at Object.module.exports.s.validatePostData (e:\code\nodejs\n-app-02\apps\admin\controllers\base-grid.js:4:1)
+    at Object.getListOfUsers (e:\code\nodejs\n-app-02\apps\admin\controllers\system\users.js:8:3)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:11:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:11:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at IncomingMessage.<anonymous> (E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:11:10)
+    at emitNone (events.js:11:10)
+    at IncomingMessage.emit (events.js:11:3)
+    at endReadableNT (_stream_readable.js:11:10)
+    at _combinedTickCallback (internal/process/next_tick.js:11:10)
+    at process._tickCallback (internal/process/next_tick.js:11:3)
+
+[2018-07-07T16:51:04.554] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js ReferenceError: Invalid left-hand side in assignment
+    at Object.fromJSON (E:\code\nodejs\n-app-02\packages\quicky\q-json\index.js:11:10)
+    at Object.module.exports.s.validatePostData (e:\code\nodejs\n-app-02\apps\admin\controllers\base-grid.js:4:1)
+    at Object.getListOfUsers (e:\code\nodejs\n-app-02\apps\admin\controllers\system\users.js:8:3)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:11:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:11:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at IncomingMessage.<anonymous> (E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:11:10)
+    at emitNone (events.js:11:10)
+    at IncomingMessage.emit (events.js:11:3)
+    at endReadableNT (_stream_readable.js:11:10)
+    at _combinedTickCallback (internal/process/next_tick.js:11:10)
+    at process._tickCallback (internal/process/next_tick.js:11:3)
+
+[2018-07-07T16:52:18.258] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js ReferenceError: Invalid left-hand side in assignment
+    at Object.fromJSON (E:\code\nodejs\n-app-02\packages\quicky\q-json\index.js:11:10)
+    at Object.module.exports.s.validatePostData (e:\code\nodejs\n-app-02\apps\admin\controllers\base-grid.js:4:1)
+    at Object.getListOfUsers (e:\code\nodejs\n-app-02\apps\admin\controllers\system\users.js:8:3)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:11:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:11:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at IncomingMessage.<anonymous> (E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:11:10)
+    at emitNone (events.js:11:10)
+    at IncomingMessage.emit (events.js:11:3)
+    at endReadableNT (_stream_readable.js:11:10)
+    at _combinedTickCallback (internal/process/next_tick.js:11:10)
+    at process._tickCallback (internal/process/next_tick.js:11:3)
+
+[2018-07-07T16:53:18.469] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js SyntaxError: Invalid or unexpected token
+    at Object.fromJSON (E:\code\nodejs\n-app-02\packages\quicky\q-json\index.js:11:10)
+    at Object.module.exports.s.validatePostData (e:\code\nodejs\n-app-02\apps\admin\controllers\base-grid.js:4:1)
+    at Object.getListOfUsers (e:\code\nodejs\n-app-02\apps\admin\controllers\system\users.js:8:3)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:11:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:11:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at IncomingMessage.<anonymous> (E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:11:10)
+    at emitNone (events.js:11:10)
+    at IncomingMessage.emit (events.js:11:3)
+    at endReadableNT (_stream_readable.js:11:10)
+    at _combinedTickCallback (internal/process/next_tick.js:11:10)
+    at process._tickCallback (internal/process/next_tick.js:11:3)
+
+[2018-07-07T17:04:27.877] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js SyntaxError: Invalid or unexpected token
+    at Object.fromJSON (E:\code\nodejs\n-app-02\packages\quicky\q-json\index.js:11:10)
+    at Object.module.exports.s.validatePostData (e:\code\nodejs\n-app-02\apps\admin\controllers\base-grid.js:4:1)
+    at Object.getListOfUsers (e:\code\nodejs\n-app-02\apps\admin\controllers\system\users.js:8:3)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:11:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:11:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at IncomingMessage.<anonymous> (E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:11:10)
+    at emitNone (events.js:11:10)
+    at IncomingMessage.emit (events.js:11:3)
+    at endReadableNT (_stream_readable.js:11:10)
+    at _combinedTickCallback (internal/process/next_tick.js:11:10)
+    at process._tickCallback (internal/process/next_tick.js:11:3)
+
+[2018-07-07T17:08:19.900] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js e:\code\nodejs\n-app-02\apps\admin\controllers\base-grid.js:9
+            var postData=require("quicky/q-json").fromJSON(JSON.parse(s.postData);
+                                                                                ^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:34:10)
+    at Object.runInThisContext (vm.js:34:10)
+    at Module._compile (module.js:34:25)
+    at Object.Module._extensions..js (module.js:34:10)
+    at Module.load (module.js:34:25)
+    at tryModuleLoad (module.js:34:10)
+    at Function.Module._load (module.js:34:3)
+    at Module.require (module.js:34:10)
+    at require (internal/module.js:34:10)
+    at Object.module.exports.require [as handler] (e:\code\nodejs\n-app-02\apps\admin\controllers\system\users.js:2:15)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T17:08:50.520] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js e:\code\nodejs\n-app-02\apps\admin\controllers\base-grid.js:9
+            var postData=require("quicky/q-json").fromJSON(JSON.parse(s.postData);
+                                                                                ^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:34:10)
+    at Object.runInThisContext (vm.js:34:10)
+    at Module._compile (module.js:34:25)
+    at Object.Module._extensions..js (module.js:34:10)
+    at Module.load (module.js:34:25)
+    at tryModuleLoad (module.js:34:10)
+    at Function.Module._load (module.js:34:3)
+    at Module.require (module.js:34:10)
+    at require (internal/module.js:34:10)
+    at Object.module.exports.require [as handler] (e:\code\nodejs\n-app-02\apps\admin\controllers\system\users.js:2:15)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T17:09:05.403] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js e:\code\nodejs\n-app-02\apps\admin\controllers\base-grid.js:9
+            var postData=require("quicky/q-json").fromJSON(JSON.parse(s.postData);
+                                                                                ^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:34:10)
+    at Object.runInThisContext (vm.js:34:10)
+    at Module._compile (module.js:34:25)
+    at Object.Module._extensions..js (module.js:34:10)
+    at Module.load (module.js:34:25)
+    at tryModuleLoad (module.js:34:10)
+    at Function.Module._load (module.js:34:3)
+    at Module.require (module.js:34:10)
+    at require (internal/module.js:34:10)
+    at Object.module.exports.require [as handler] (e:\code\nodejs\n-app-02\apps\admin\controllers\system\users.js:2:15)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T17:09:09.760] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js e:\code\nodejs\n-app-02\apps\admin\controllers\base-grid.js:9
+            var postData=require("quicky/q-json").fromJSON(JSON.parse(s.postData);
+                                                                                ^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:34:10)
+    at Object.runInThisContext (vm.js:34:10)
+    at Module._compile (module.js:34:25)
+    at Object.Module._extensions..js (module.js:34:10)
+    at Module.load (module.js:34:25)
+    at tryModuleLoad (module.js:34:10)
+    at Function.Module._load (module.js:34:3)
+    at Module.require (module.js:34:10)
+    at require (internal/module.js:34:10)
+    at Object.module.exports.require [as handler] (e:\code\nodejs\n-app-02\apps\admin\controllers\system\users.js:2:15)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T17:10:01.510] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js Please set pageIndex
+[2018-07-07T17:10:35.214] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js e:\code\nodejs\n-app-02\apps\admin\controllers\base-grid.js:11
+                (postData.pageSize===undefined){
+                                               ^
+
+SyntaxError: Unexpected token {
+    at createScript (vm.js:34:10)
+    at Object.runInThisContext (vm.js:34:10)
+    at Module._compile (module.js:34:25)
+    at Object.Module._extensions..js (module.js:34:10)
+    at Module.load (module.js:34:25)
+    at tryModuleLoad (module.js:34:10)
+    at Function.Module._load (module.js:34:3)
+    at Module.require (module.js:34:10)
+    at require (internal/module.js:34:10)
+    at Object.module.exports.require [as handler] (e:\code\nodejs\n-app-02\apps\admin\controllers\system\users.js:2:15)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:34:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:34:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:34:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:34:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:34:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:34:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:34:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:34:3)
+    at runCallback (timers.js:34:10)
+    at tryOnImmediate (timers.js:34:3)
+    at processImmediate [as _immediateCallback] (timers.js:34:3)
+
+[2018-07-07T17:16:27.385] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: user.project is not a function
+    at Object.getListOfUsers (e:\code\nodejs\n-app-02\apps\admin\controllers\system\users.js:10:24)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:11:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:11:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at IncomingMessage.<anonymous> (E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:11:10)
+    at emitNone (events.js:11:10)
+    at IncomingMessage.emit (events.js:11:3)
+    at endReadableNT (_stream_readable.js:11:10)
+    at _combinedTickCallback (internal/process/next_tick.js:11:10)
+    at process._tickCallback (internal/process/next_tick.js:11:3)
+
+[2018-07-07T17:16:56.469] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js Error: 
+		The list of bellow fields:
+					UserName
+
+				 are not in :
+
+				Username
+				LatestLoginFail
+				ModifiedOn
+				Description
+				CreatedOn
+				CreateOnUCT
+				ActivationOnUTC
+				CreatedOnUTC
+				LatestLogin
+				ActivationOn
+				ModifiedOnUTC
+				CreatedBy
+				Password
+				Email
+				IsActive
+				TotalLogin
+				ActivationCount
+				ActivationTimeList
+				DisplayName
+				IsSysAdmin
+				LatestLoginOn
+				LatestLoginOnUTC
+				LoginTimeList
+				IsStaff
+				LatestLoginFailOn
+				LatestLoginFailOnUCT
+				LoginFailCount
+				LoginFailTimeList
+				_id
+
+    at E:\code\nodejs\n-app-02\packages\quicky\q-mongo\db.js:11:25
+    at Array.forEach (native)
+    at _aggregate.me.project (E:\code\nodejs\n-app-02\packages\quicky\q-mongo\db.js:11:25)
+    at Object.getListOfUsers (e:\code\nodejs\n-app-02\apps\admin\controllers\system\users.js:10:39)
+    at hanlderCls.module.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:11:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:11:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:11:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:11:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:11:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:11:10)
+    at IncomingMessage.<anonymous> (E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:11:10)
+    at emitNone (events.js:11:10)
+    at IncomingMessage.emit (events.js:11:3)
+    at endReadableNT (_stream_readable.js:11:10)
+    at _combinedTickCallback (internal/process/next_tick.js:11:10)
+    at process._tickCallback (internal/process/next_tick.js:11:3)
+
+[2018-07-07T17:32:50.669] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js ule.exports [as _handler] (E:\code\nodejs\n-app-02\packages\quicky\q-controller\index.js:13:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:13:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:13:3)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:13:45)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:13:3)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:13:10)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:13:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:13:3)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:10
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:10)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:13:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:10)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:13:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:13:10
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:13:3)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:10)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:3
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:10)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:13:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:13:3)
+    at runCallback (timers.js:13:10)
+    at tryOnImmediate (timers.js:13:3)
+    at processImmediate [as _immediateCallback] (timers.js:13:3)
+
+[2018-07-07T17:40:48.500] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: owner._handler is not a function
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:62:39
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:8:13)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:61:50)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:170:13
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:489:7)
+    at runCallback (timers.js:676:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+
+[2018-07-07T22:47:04.818] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js { Error: Cannot find module 'e:\code\nodejs\n-app-02\controllers\login'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at execHandlerByPath (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:32:5)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:67:37
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:8:13)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:65:50)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:170:13
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:489:7)
+    at runCallback (timers.js:676:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+ code: 'MODULE_NOT_FOUND' }
+[2018-07-07T22:49:20.641] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:468:7)
+    at execHandlerByPath (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:31:20)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:67:37
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:8:13)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:65:50)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:170:13
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:489:7)
+    at runCallback (timers.js:676:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+
+[2018-07-07T22:50:20.220] [DEBUG] debug - E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js TypeError: Cannot read property 'hostDir' of undefined
+    at execHandlerByPath (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:31:45)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:67:37
+    at Object.authenticate (e:\code\nodejs\n-app-02\apps\admin\index.js:8:13)
+    at me.url.owner.handler (E:\code\nodejs\n-app-02\packages\quicky\q-apps\extension.js:65:50)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (e:\code\nodejs\n-app-02\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (e:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at E:\code\nodejs\n-app-02\packages\quicky\q-apps\index.js:170:13
+    at Layer.handle [as handle_request] (E:\code\nodejs\n-app-02\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:317:13)
+    at E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\code\nodejs\n-app-02\node_modules\express\lib\router\index.js:275:10)
+    at Immediate.<anonymous> (E:\code\nodejs\n-app-02\node_modules\express-session\index.js:489:7)
+    at runCallback (timers.js:676:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+
