@@ -247,7 +247,40 @@ function getSchemaFromRequest(req){
  * @param {*} value 
  */
 function sessionCacheUseMemCache(value){
-_isUserMemcacheForSession=value;
+    _isUserMemcacheForSession=value;
+}
+/**
+ * Create app route from working dir
+ * @param {string} workingDir 
+ */
+function createAppRoutes(workingDir){
+    function ret(){
+        var me=this;
+        me.router=express.Router();
+        me.urls=extension.urls(me.router);
+        me.router.use('/static',express.static(workingDir+'/static'));
+        me.urls.setDir(workingDir);
+        me.urls.url("api.html","/api",require("../q-api").handler);
+        me.url=function(templateFile,urlParttern,controllerPath){
+            if(urlParttern===undefined){
+                if(templateFile!=="/"){
+                    urlParttern=templateFile;
+                    controllerPath="./controllers"+templateFile;
+                    templateFile=templateFile.substring(1,templateFile.length)+ ".html";
+                }
+                else {
+                    urlParttern="/";
+                    controllerPath="./controllers/index";
+                    templateFile="index.html";
+                }
+            }
+            me.urls.url(templateFile,urlParttern,controllerPath);
+            return me;
+        }
+
+
+    }
+    return new ret();
 }
 var extension=require("./extension");
 module.exports={
@@ -270,6 +303,7 @@ module.exports={
     setCompressMode:extension.setCompressMode,
     sessionCacheSetServers:sesssionCache.sessionCacheSetServers,
     sessionCacheSet:sesssionCache.sessionCacheSet,
-    sessionCacheUseMemCache:sesssionCache.setIsUseMemCache
+    sessionCacheUseMemCache:sesssionCache.setIsUseMemCache,
+    createAppRoutes:createAppRoutes
 
 }

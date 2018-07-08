@@ -41,11 +41,11 @@ function applyRequest(req,res,me,owner){
         var requrl = req.protocol+"://"+req.get('host');
         req.__abs_url__= requrl;
     }
-    if(!me._templateDir){
-        throw("It look like you forgot 'setTemplateDir' when call urls(router)\r\n Please review at application dir router.js and place .setTemplateDir(__dirname) at urls")
+    if(!me._workingDir){
+        throw("It look like you forgot 'setDir' when call urls(router)\r\n Please review at application dir router.js and place .setTemplateDir(__dirname) at urls")
     }
     if(!me.app){
-        me.app=getAppByDir(me._templateDir);
+        me.app=getAppByDir(me._workingDir);
     }
     var scriptTags={
         ajax:function(){
@@ -197,7 +197,7 @@ function applyRequest(req,res,me,owner){
         try {
             function renderTemplate(cb){
                 if(!me.app._mdl.render){
-                    var renderer = ECT({ root : path.join(me._templateDir,me.app.templateDir||"views"), ext : '.html' });
+                    var renderer = ECT({ root : path.join(me._workingDir,me.app._templateDir||"views"), ext : '.html' });
                     renderer.render(owner.fileName, renderModel, function (error, html) {
                         cb(error, html);
                     });

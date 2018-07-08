@@ -49,10 +49,28 @@ function urls(router){
         me._templateDir="";
         me.app;
         me._handlers_cache={};
-        
-        me.setTemplateDir=function(tmpPath){
-            me._templateDir=tmpPath;
-            
+        /**
+         * set Path to controller
+         * @param {rel path to controller} controllerPath 
+         */
+        me.setControllerPath=function(controllerPath){
+            me._controllerPath=controllerPath;
+            return me;
+        }
+        /**
+         * set working dir of this application
+         * @param {} tmpPath 
+         */
+        me.setDir=function(tmpPath){
+            me._workingDir=tmpPath;
+            return me;
+        }
+        /**
+         * set template Dir (rel path from project dir)
+         * @param {*} relPathFromRootProjectDir 
+         */
+        me.setTemplateDir=function(relPathFromRootProjectDir){
+            me._templateDir=relPathFromRootProjectDir;
             return me;
         }
         me.url=function(fileName,urlPartern,handler,authHandler){
@@ -75,9 +93,6 @@ function urls(router){
                             req.application._mdl.authenticate(req,res,function(){
                                 if(typeof owner._handler==="string"){
                                     execHandlerByPath(me.app,owner._handler,req,res,next);
-                                    
-
-
                                 }
                                 else {
                                     owner._handler(req,res,next);  
